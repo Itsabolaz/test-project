@@ -16,3 +16,11 @@ const addCourse = (course) => {
 const showNumber = (num) => {
     console.log(num)
 }
+
+const handleFormError = (errors) => {
+    if(errors.length > 0) {
+        console.log('There is something wrong with this form!')
+    } else {
+        return 'run'
+    }
+}
