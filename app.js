@@ -8,3 +8,7 @@ const isRegister = (user) => {
 const getMe = (user) => {
     return 'User';
 }
+
+const addCourse = (course) => {
+    return true;
+}
