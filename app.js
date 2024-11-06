@@ -21,6 +21,6 @@ const handleFormError = (errors) => {
     if(errors.length > 0) {
         console.log('There is something wrong with this form!')
     } else {
-        return 'run'
+        console.log('your input is currect :) thanks.')
     }
 }
