@@ -12,3 +12,7 @@ const getMe = (user) => {
 const addCourse = (course) => {
     return true;
 }
+
+const showNumber = (num) => {
+    console.log(num)
+}
