@@ -5,9 +5,6 @@ const isLogin = (user) => {
 const isRegister = (user) => {
     return true;
 }
-const getMe = (user) => {
-    return 'User';
-}
 
 const addCourse = (course) => {
     return true;
@@ -24,3 +21,5 @@ const handleFormError = (errors) => {
         console.log('your input is currect :) thanks.')
     }
 }
+
+const getUser = () => true;
