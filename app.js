@@ -39,3 +39,7 @@ const likePost = (likes) => {
 const sharePost = (count) => {
     console.log("share count is equal to :" , count)
 }
+
+const getComments = () => {
+    return true;
+}
