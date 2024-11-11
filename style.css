@@ -26,3 +26,11 @@ h1{
     font-weight: bold;
     font-size: 30px;
 }
+
+form{
+    background-color: orange;
+    color: gray;
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+}
