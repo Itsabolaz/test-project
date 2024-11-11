@@ -35,3 +35,7 @@ const testUserAccess = (user) => {
 const likePost = (likes) => {
     return likes.count;
 }
+
+const sharePost = (count) => {
+    console.log("share count is equal to :" , count)
+}
