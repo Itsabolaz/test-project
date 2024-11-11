@@ -31,3 +31,7 @@ const testUserAccess = (user) => {
     alert('error!')
   }
 }
+
+const likePost = (likes) => {
+    return likes.count;
+}
