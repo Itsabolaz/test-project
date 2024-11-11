@@ -28,6 +28,6 @@ const testUserAccess = (user) => {
   if(user.role === 'authenticated'){
     console.log('User role is admin!')
   } else {
-    console.log('User role is guest!')
+    alert('error!')
   }
 }
